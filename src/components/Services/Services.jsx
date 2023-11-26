@@ -16,7 +16,10 @@ const Services = () => {
   return (
     <div className=" bg-gray-200 p-2 mt-20 pb-20 mb-20">
       <Card>
-        <h1 className=" border-l-8 border-yellow-300 p-2  text-3xl">
+        <h1
+          className=" border-l-8 border-yellow-300 p-2  text-3xl"
+          id="services"
+        >
           Our Services
         </h1>
 

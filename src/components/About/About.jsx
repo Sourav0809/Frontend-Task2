@@ -3,7 +3,9 @@ import Card from "../UI/Card";
 const About = () => {
   return (
     <Card>
-      <h1 className=" border-l-8 border-yellow-300 p-2  text-3xl"> About Us</h1>
+      <h1 className=" border-l-8 border-yellow-300 p-2  text-3xl" id="about">
+        About Us
+      </h1>
       <div className=" flex flex-col  min-[650px]:flex-row gap-8">
         {/* FOR IMAGE  */}
 

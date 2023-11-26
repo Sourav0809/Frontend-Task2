@@ -2,6 +2,12 @@
 /*              USING SWIPER JS HERE TO MAKE THE PROJECT CAROUSEL             */
 /* -------------------------------------------------------------------------- */
 
+//Importing Projects
+
+import Project1 from "./UI/Project1";
+import Project2 from "./UI/Project2";
+import Project3 from "./UI/Project3";
+import Project4 from "./UI/Project4";
 // import Swiper core and required modules
 
 import {
@@ -19,10 +25,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import Projects from "./Projects";
 const HeroContainer = () => {
   return (
     <Swiper
+      id="projects"
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
@@ -33,16 +39,16 @@ const HeroContainer = () => {
       //   autoplay={{ delay: 3000 }}
     >
       <SwiperSlide>
-        <Projects />
+        <Project1 />
       </SwiperSlide>
       <SwiperSlide>
-        <Projects />
+        <Project2 />
       </SwiperSlide>
       <SwiperSlide>
-        <Projects />
+        <Project3 />
       </SwiperSlide>
       <SwiperSlide>
-        <Projects />
+        <Project4 />
       </SwiperSlide>
     </Swiper>
   );

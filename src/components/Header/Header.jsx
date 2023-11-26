@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import "../../App.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
   // state for hamburger
@@ -30,12 +31,90 @@ const Header = () => {
               isMenuOpen ? "block" : "hidden"
             } fixed  lg:relative lg:top-0 lg:right-0  top-[4rem] right-0 w-80 lg:w-auto h-[calc(100vh-4rem)]   lg:h-fit lg:p-0 px-4 py-6 lg:bg-inherit bg-blue-300 text-xl font-custom  lg:flex gap-8`}
           >
-            <h1 className="hover:text-green-500 cursor-pointer">Home</h1>
-            <h1 className="hover:text-green-500 cursor-pointer">About</h1>
-            <h1 className="hover:text-green-500 cursor-pointer">Services</h1>
-            <h1 className="hover:text-green-500 cursor-pointer">Projects</h1>
-            <h1 className="hover:text-green-500 cursor-pointer">Our Clients</h1>
-            <h1 className="hover:text-green-500 cursor-pointer">Contact Us</h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                Home
+              </Link>
+            </h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                About
+              </Link>
+            </h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-220}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                Services
+              </Link>
+            </h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                Projects
+              </Link>
+            </h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="clients"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                Our Clinets
+              </Link>
+            </h1>
+            <h1 className="hover:text-green-500 cursor-pointer">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1500}
+                className="hover:text-green-500 cursor-pointer"
+                onClick={toggleMenu}
+              >
+                Contact Us
+              </Link>
+            </h1>
           </div>
           {!isMenuOpen ? (
             <GiHamburgerMenu

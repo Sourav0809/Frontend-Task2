@@ -10,7 +10,7 @@ const Banner2 = () => {
         </div>
 
         <div className=" text-[1rem] min-[500px]:text-xl  text-blue-950 ">
-          <p>Discover the tranquility of project success, as we guide you</p>
+          <p>Discover the tranquility of project success, as we guide</p>
           <p className="">
             through a serene stress-free journey, ensuring a triumphant
             conclusion.

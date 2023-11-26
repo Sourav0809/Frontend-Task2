@@ -27,6 +27,7 @@ import "swiper/css/scrollbar";
 const HeroContainer = () => {
   return (
     <Swiper
+      id="hero"
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}

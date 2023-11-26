@@ -1,3 +1,7 @@
+// importing icons
+import { FaGithub } from "react-icons/fa6";
+import { FaLink } from "react-icons/fa";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,7 +12,7 @@ import "swiper/css/effect-cards";
 // import required modules
 import { EffectCards } from "swiper/modules";
 
-const Projects = () => {
+const Project1 = () => {
   return (
     <>
       <div className=" bg-gray-100 w-full px-5 pb-20 min-[650px]:pb-2 overflow-hidden">
@@ -28,31 +32,31 @@ const Projects = () => {
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b0af.appspot.com/o/BodyBook%2FLogin.png?alt=media&amp;token=d09017a2-1da4-454b-8c51-66a106556e7f"
+                  src="src/assets/images/expencify-dash-2.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b0af.appspot.com/o/BodyBook%2FLogin.png?alt=media&amp;token=d09017a2-1da4-454b-8c51-66a106556e7f"
+                  src="src/assets/images/expencify-auth-11.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b0af.appspot.com/o/BodyBook%2FLogin.png?alt=media&amp;token=d09017a2-1da4-454b-8c51-66a106556e7f"
+                  src="src/assets/images/expencify-edit-3.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b0af.appspot.com/o/BodyBook%2FLogin.png?alt=media&amp;token=d09017a2-1da4-454b-8c51-66a106556e7f"
+                  src="src/assets/images/expencify-chart-4.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b0af.appspot.com/o/BodyBook%2FLogin.png?alt=media&amp;token=d09017a2-1da4-454b-8c51-66a106556e7f"
+                  src="src/assets/images/expencify-category-5.png"
                 />
               </SwiperSlide>
             </div>
@@ -84,6 +88,15 @@ const Projects = () => {
                   Dashboard & Category With Expenses, Charts, Download Expense
                   And Credit Report VIP Features
                 </p>
+
+                <div className=" flex justify-center items-center mt-2 gap-4">
+                  <a href="https://github.com/Sourav0809/Expencify/tree/Expencify-2.0">
+                    <FaGithub className=" text-2xl cursor-pointer" />
+                  </a>
+                  <a href="https://expencify.netlify.app/">
+                    <FaLink className=" text-2xl cursor-pointer" />
+                  </a>
+                </div>
               </div>
             </div>
           </Swiper>
@@ -93,4 +106,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project1;

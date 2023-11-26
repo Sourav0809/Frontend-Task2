@@ -16,7 +16,10 @@ const Clients = () => {
   return (
     <div className="  p-2  pb-20 mb-20">
       <Card>
-        <h1 className=" border-l-8 border-yellow-300 p-2  text-3xl">
+        <h1
+          className=" border-l-8 border-yellow-300 p-2  text-3xl"
+          id="clients"
+        >
           Our Clients
         </h1>
 
