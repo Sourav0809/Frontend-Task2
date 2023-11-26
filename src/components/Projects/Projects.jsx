@@ -78,7 +78,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className=" font-roboto flex flex-col justify-start items-start">
-                <h1 className=" font-bold">Features</h1>
+                <h1 className=" font-bold text-xl">Features</h1>
                 <p>
                   User Authentication by firebase, Remove, Edit, Search, Filter,
                   Dashboard & Category With Expenses, Charts, Download Expense

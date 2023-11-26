@@ -22,15 +22,15 @@ const About = () => {
             <h1>We Will Provide You The Best Work Which You Dreamt For ! </h1>
           </div>
           <div>
-            <p className=" text-base md:text-xl font-roboto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus nihil autem eveniet? Pariatur, velit culpa. Numquam
-              dolore voluptates totam vero? Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Neque, esse.
+            <p className=" text-base md:text-xl font-roboto font-normal">
+              At our core, we are committed to delivering exceptional value.
+              With a dedication to unmatched excellence, Our services are
+              crafted with quality in mind, Choose us for a consistently
+              excellent experience, where your satisfaction is our priority.
             </p>
           </div>
 
-          <button className=" bg-yellow-300 px-4 py-2 w-[40%] md:w-[30%]  rounded-md">
+          <button className=" bg-yellow-300 px-4 py-2 w-fit rounded-md">
             Read More
           </button>
         </div>

@@ -1,8 +1,13 @@
 /* -------------------------------------------------------------------------- */
 /*                  USING SWIPER JS HERE TO MAKE THE CAROUSEL                 */
 /* -------------------------------------------------------------------------- */
+//importing banners
 
 import Banner1 from "./UI/Banner1";
+import Banner2 from "./UI/Banner2";
+import Banner3 from "./UI/Banner3";
+import Banner4 from "./UI/Banner4";
+
 // import Swiper core and required modules
 
 import {
@@ -19,7 +24,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import Banner2 from "./UI/Banner2";
 const HeroContainer = () => {
   return (
     <Swiper
@@ -37,10 +41,10 @@ const HeroContainer = () => {
         <Banner2 />
       </SwiperSlide>
       <SwiperSlide>
-        <Banner1 />
+        <Banner3 />
       </SwiperSlide>
       <SwiperSlide>
-        <Banner1 />
+        <Banner4 />
       </SwiperSlide>
     </Swiper>
   );
