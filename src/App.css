@@ -1,0 +1,11 @@
+@media only screen and (min-width: 370px) {
+    .sample-slider [class^="swiper-button-"]::after {
+        font-size: 1px !important;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .sample-slider [class^="swiper-button-"]::after {
+        font-size: 42px;
+    }
+}

@@ -4,6 +4,7 @@ import HeroContainer from "./components/HeroSection/HeroContainer";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Clients from "./components/Clients/Client";
+import ProjectsContainer from "./components/Projects/ProjectsContainer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Services />
       <Clients />
+      <ProjectsContainer />
     </>
   );
 }
