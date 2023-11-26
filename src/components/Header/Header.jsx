@@ -20,7 +20,7 @@ const Header = () => {
           location.reload();
         }}
       >
-        <img src="src\assets\logo\Logo3.png" width={250} height={300} />
+        <img src="Logo3.png" width={250} height={300} />
       </div>
 
       <div className="flex items-center gap-6 text-[1.2rem] font-semibold p-4">
