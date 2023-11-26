@@ -32,31 +32,31 @@ const Project1 = () => {
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/expencify-dash-2.png"
+                  src="images/expencify-dash-2.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/expencify-auth-11.png"
+                  src="images/expencify-auth-11.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/expencify-edit-3.png"
+                  src="images/expencify-edit-3.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/expencify-chart-4.png"
+                  src="images/expencify-chart-4.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/expencify-category-5.png"
+                  src="images/expencify-category-5.png"
                 />
               </SwiperSlide>
             </div>

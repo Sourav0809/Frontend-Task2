@@ -30,34 +30,19 @@ const Project4 = () => {
           >
             <div>
               <SwiperSlide>
-                <img
-                  className=" w-full h-full p-2"
-                  src="src/assets/images/ecom-1.png"
-                />
+                <img className=" w-full h-full p-2" src="images/ecom-1.png" />
               </SwiperSlide>
               <SwiperSlide>
-                <img
-                  className=" w-full h-full p-2"
-                  src="src/assets/images/ecom-2.png"
-                />
+                <img className=" w-full h-full p-2" src="images/ecom-2.png" />
               </SwiperSlide>
               <SwiperSlide>
-                <img
-                  className=" w-full h-full p-2"
-                  src="src/assets/images/ecom-3.png"
-                />
+                <img className=" w-full h-full p-2" src="images/ecom-3.png" />
               </SwiperSlide>
               <SwiperSlide>
-                <img
-                  className=" w-full h-full p-2"
-                  src="src/assets/images/ecom-4.png"
-                />
+                <img className=" w-full h-full p-2" src="images/ecom-4.png" />
               </SwiperSlide>
               <SwiperSlide>
-                <img
-                  className=" w-full h-full p-2"
-                  src="src/assets/images/ecom-5.png"
-                />
+                <img className=" w-full h-full p-2" src="images/ecom-5.png" />
               </SwiperSlide>
             </div>
 

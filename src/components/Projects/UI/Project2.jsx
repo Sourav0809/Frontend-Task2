@@ -32,31 +32,31 @@ const Project2 = () => {
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/mailbox-1.png"
+                  src="images/mailbox-1.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/mailbox-2.png"
+                  src="images/mailbox-2.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/mailbox-3.png"
+                  src="images/mailbox-3.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/mailbox-5.png"
+                  src="images/mailbox-5.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className=" w-full h-full p-2"
-                  src="src/assets/images/mailbox-4.png"
+                  src="images/mailbox-4.png"
                 />
               </SwiperSlide>
             </div>
