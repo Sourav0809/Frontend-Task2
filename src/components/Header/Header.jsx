@@ -25,10 +25,12 @@ const Header = () => {
 
       <div className="flex items-center gap-6 text-[1.2rem] font-semibold p-4">
         {/* Responsive menu */}
-        <div className=" relative flex justify-center gap-4 items-center">
+        <div className=" relative flex  justify-center gap-4 items-center">
           <div
             className={`${
-              isMenuOpen ? " flex flex-col items-center  " : "hidden "
+              isMenuOpen
+                ? " flex flex-col lg:flex-row items-center  "
+                : "hidden "
             } fixed lg:relative lg:top-0 lg:right-0 top-[4rem] right-0 w-56 min-[500px]:w-80 md:w-96 lg:w-auto h-[calc(100vh-4rem)] lg:h-fit lg:p-0 px-4 py-6 lg:bg-inherit bg-blue-300 text-xl font-custom lg:flex gap-8`}
           >
             <h1 className="hover:text-green-500 cursor-pointer">
