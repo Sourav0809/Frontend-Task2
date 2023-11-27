@@ -12,7 +12,7 @@ const Contact = () => {
 
         <div className=" w-[90%] min-[650px]:w-[45%] mt-5 relative">
           <img
-            src="https://img.freepik.com/free-photo/medium-shot-back-view-engineer-supervising-construction_23-2148233750.jpg?w=1380&t=st=1701023103~exp=1701023703~hmac=61d4a33c960c40df75475594a5ba8761da312ed9c713d1a14c7ea8a542e61654"
+            src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1701058610~exp=1701059210~hmac=08e1106a44e98d2f6fbc3f6ec6b3608517e49ada602885cdd7ac5dc1269f8c27"
             className="w-full h-full relative z-10 rounded-md"
           />
           <div className="w-full h-full absolute bg-yellow-400  top-5 left-5 shadow-md rounded-md" />

@@ -3,7 +3,7 @@ import "../../App.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import "../../App.css";
 const Header = () => {
   // state for hamburger
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,8 +28,8 @@ const Header = () => {
         <div className=" relative flex justify-center gap-4 items-center">
           <div
             className={`${
-              isMenuOpen ? "block" : "hidden"
-            } fixed  lg:relative lg:top-0 lg:right-0  top-[4rem] right-0 w-80 lg:w-auto h-[calc(100vh-4rem)]   lg:h-fit lg:p-0 px-4 py-6 lg:bg-inherit bg-blue-300 text-xl font-custom  lg:flex gap-8`}
+              isMenuOpen ? " flex flex-col items-center  " : "hidden "
+            } fixed lg:relative lg:top-0 lg:right-0 top-[4rem] right-0 w-56 min-[500px]:w-80 md:w-96 lg:w-auto h-[calc(100vh-4rem)] lg:h-fit lg:p-0 px-4 py-6 lg:bg-inherit bg-blue-300 text-xl font-custom lg:flex gap-8`}
           >
             <h1 className="hover:text-green-500 cursor-pointer">
               <Link
@@ -40,7 +40,9 @@ const Header = () => {
                 offset={-100}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 Home
               </Link>
@@ -54,7 +56,9 @@ const Header = () => {
                 offset={-150}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 About
               </Link>
@@ -68,7 +72,9 @@ const Header = () => {
                 offset={-220}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 Services
               </Link>
@@ -82,7 +88,9 @@ const Header = () => {
                 offset={-100}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 Projects
               </Link>
@@ -96,7 +104,9 @@ const Header = () => {
                 offset={-200}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 Our Clinets
               </Link>
@@ -110,7 +120,9 @@ const Header = () => {
                 offset={50}
                 duration={1500}
                 className="hover:text-green-500 cursor-pointer"
-                onClick={toggleMenu}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
               >
                 Contact Us
               </Link>

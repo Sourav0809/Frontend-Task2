@@ -37,7 +37,7 @@ const Project1 = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  className=" w-full h-full p-2"
+                  className=" w-full h-full p-2 "
                   src="images/expencify-auth-11.png"
                 />
               </SwiperSlide>

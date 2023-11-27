@@ -26,7 +26,7 @@ const Banner4 = () => {
       <div className="flex justify-center w-full min-[650px]:w-1/2  items-center object-cover p-5">
         <img
           className="  md:w-[38vw] w-full object-cover"
-          src="https://img.freepik.com/free-photo/residential-house-process-building_23-2147694705.jpg?w=1380&t=st=1701023266~exp=1701023866~hmac=39e42a56e02b4052272fd595c1e18bb52257ce34127ad5a9aa021badd665f59a"
+          src="https://img.freepik.com/free-photo/man-making-measurements-building_1122-1412.jpg?1&w=1380&t=st=1701058215~exp=1701058815~hmac=d28fbbafccd9db134508789d20ede0573fc15436af193e2d7131464ee0a47fdd"
         />
       </div>
     </section>

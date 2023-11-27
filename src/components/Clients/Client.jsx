@@ -23,10 +23,7 @@ const Clients = () => {
           Our Clients
         </h1>
 
-        {/* PARENT CONTAINER 1 */}
-
         <div className=" flex flex-wrap min-[370px]:flex-nowrap justify-center items-center gap-6 p-4 w-full mt-5">
-          {/* CHILD CONTAINER 1.1 */}
           <div className=" flex flex-wrap min-[800px]:flex-nowrap justify-center items-center gap-4">
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
@@ -36,7 +33,6 @@ const Clients = () => {
               />
             </div>
 
-            {/* CHILD CONTAINER 1.2 */}
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
                 className=" w-full h-full rounded-md"
@@ -54,7 +50,6 @@ const Clients = () => {
           </div>
 
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
-            {/* CHILD CONTAINER 1.3 */}
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
                 className=" w-full h-full rounded-md"
@@ -62,7 +57,6 @@ const Clients = () => {
                 alt="company images"
               />
             </div>
-            {/* CHILD CONTAINER 1.4 */}
 
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
@@ -81,10 +75,7 @@ const Clients = () => {
           </div>
         </div>
 
-        {/* PARENT CONTAINER 2 */}
-
         <div className=" flex flex-wrap min-[370px]:flex-nowrap justify-center items-center gap-6 p-4 w-full">
-          {/* CHILD CONTAINER 2.1 */}
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
@@ -101,7 +92,6 @@ const Clients = () => {
               />
             </div>
 
-            {/* CHILD CONTAINER 2.2 */}
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2 rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
                 className=" w-full h-full rounded-md"
@@ -112,7 +102,6 @@ const Clients = () => {
           </div>
 
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
-            {/* CHILD CONTAINER 2.3 */}
             <div className="p-1 bg-yellow-200  flex justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-x-[-3rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <img
                 className=" w-full h-full rounded-md"
@@ -134,8 +123,6 @@ const Clients = () => {
                 alt="company images"
               />
             </div>
-
-            {/* CHILD CONTAINER 2.4 */}
           </div>
         </div>
       </Card>

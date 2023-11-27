@@ -29,7 +29,7 @@ const Banner3 = () => {
       <div className="flex justify-center w-full min-[650px]:w-1/2  items-center object-cover p-5">
         <img
           className="  md:w-[38vw] w-full object-cover"
-          src="https://img.freepik.com/free-photo/civil-engineer-construction-worker-manager-holding-digital-tablet-blueprints-talking-planing-about-construction-site-cooperation-teamwork-concept_640221-156.jpg?w=1380&t=st=1701022850~exp=1701023450~hmac=c5feff4ea30c01736dc4ba601da5b84acbb40534a816c75be01bb906d8021387"
+          src="https://img.freepik.com/free-photo/engineer-is-inspecting-his-work-building-construction-site_1150-6195.jpg?w=996&t=st=1701058089~exp=1701058689~hmac=f3e159de7107a4addb8b14d9da821516cd0cd630d808a3c920922de36369ce7d"
         />
       </div>
     </section>

@@ -23,10 +23,7 @@ const Services = () => {
           Our Services
         </h1>
 
-        {/* PARENT CONTAINER 1 */}
-
         <div className=" flex flex-wrap min-[650px]:flex-nowrap justify-center items-center gap-6 p-4 w-full mt-5">
-          {/* CHILD CONTAINER 1.1 */}
           <div className=" flex flex-wrap min-[800px]:flex-nowrap justify-center items-center gap-4">
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <BsFillBuildingsFill className=" text-5xl font-semibold text-yellow-500" />
@@ -37,7 +34,6 @@ const Services = () => {
               </p>
             </div>
 
-            {/* CHILD CONTAINER 1.2 */}
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <FaHouse className=" text-5xl font-semibold text-yellow-500" />
               <h1 className=" text-2xl font-semibold">House Renovation</h1>
@@ -48,7 +44,6 @@ const Services = () => {
             </div>
           </div>
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
-            {/* CHILD CONTAINER 1.3 */}
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <FaPersonThroughWindow className=" text-5xl font-semibold text-yellow-500" />
               <h1 className=" text-2xl font-semibold">Architecture Design</h1>
@@ -57,7 +52,6 @@ const Services = () => {
                 amet.
               </p>
             </div>
-            {/* CHILD CONTAINER 1.4 */}
 
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <FaTruck className=" text-5xl font-semibold text-yellow-500" />
@@ -70,10 +64,7 @@ const Services = () => {
           </div>
         </div>
 
-        {/* PARENT CONTAINER 2 */}
-
         <div className=" flex flex-wrap min-[650px]:flex-nowrap justify-center items-center gap-6 p-4 w-full">
-          {/* CHILD CONTAINER 2.1 */}
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <BsPersonArmsUp className=" text-5xl font-semibold text-yellow-500" />
@@ -84,7 +75,6 @@ const Services = () => {
               </p>
             </div>
 
-            {/* CHILD CONTAINER 2.2 */}
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2 rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <FaPersonShelter className=" text-5xl font-semibold text-yellow-500" />
               <h1 className=" text-2xl font-semibold ">Interior Design </h1>
@@ -96,7 +86,6 @@ const Services = () => {
           </div>
 
           <div className=" flex flex-wrap min-[800px]:flex-nowrap   justify-center items-center gap-4">
-            {/* CHILD CONTAINER 2.3 */}
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <MdRepeat className=" text-5xl font-semibold text-yellow-500" />
               <h1 className=" text-2xl font-semibold ">Renovation</h1>
@@ -105,8 +94,6 @@ const Services = () => {
                 amet.
               </p>
             </div>
-
-            {/* CHILD CONTAINER 2.4 */}
 
             <div className="p-5 bg-white flex flex-col justify-center items-center gap-2  rounded-md shadow-md hover:transform hover:translate-y-[-2rem]  transition-all hover:cursor-pointer duration-300 ease-in-out  ">
               <GiAutoRepair className=" text-5xl font-semibold text-yellow-500" />
