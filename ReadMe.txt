@@ -1,10 +1,15 @@
 I've wrapped up my project, and I'm excited to share it with you! I used React and Vite for the tech stuff, making everything smooth and snappy.
 The project looks cool, thanks to Tailwind CSS giving it a stylish touch.
 
+The contact us section also working user can send us message.Feel free to try once .Those data are stored into Google Firebase
+In future we can also make some kind of admin panel to manage to those messages.
+
 The Tech stack I have used over there is 
 1.React + Vite
 2. Tailwind Css
 3. Some Packages like Swipper.js, React-scroll
+4. Google Firebase for storing the contact us section messages 
+
 
 
 
