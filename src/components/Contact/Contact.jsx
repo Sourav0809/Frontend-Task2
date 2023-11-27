@@ -1,7 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../UI/Card";
-
+import axios from "axios";
+import toast from "react-hot-toast";
+import { RiLoader3Line } from "react-icons/ri";
 const Contact = () => {
+  //hook assignment
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [subject, setSubject] = useState("");
+  const [loader, setLoader] = useState(false);
+
+  const sendMessageHandeler = async (e) => {
+    setLoader(true);
+    e.preventDefault();
+
+    const submitedData = {
+      name,
+      email,
+      number,
+      subject,
+    };
+
+    try {
+      const { data } = await axios.post(
+        "https://admin-maharastra-default-rtdb.asia-southeast1.firebasedatabase.app/Messages.json",
+        submitedData
+      );
+      toast.success("Message Sent !");
+      setLoader(false);
+    } catch (error) {
+      toast.error("An unexpected error !");
+      setLoader(false);
+    }
+
+    setEmail("");
+    setName("");
+    setNumber("");
+    setSubject("");
+  };
+
   return (
     <Card>
       <h1 className=" border-l-8 border-yellow-300 p-2  text-3xl" id="contact">
@@ -30,6 +68,11 @@ const Contact = () => {
                 className="w-full bg-blue-100 py-2 px-5 mt-1 rounded-md text-xl "
                 type="text"
                 placeholder="Enter Your Name ..."
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                required
+                value={name}
               />
             </div>
             <div>
@@ -40,6 +83,11 @@ const Contact = () => {
                 className="w-full bg-blue-100 py-2 px-5 mt-1 rounded-md text-xl"
                 type="email"
                 placeholder="Enter Your Email ..."
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                required
+                value={email}
               />
             </div>
             <div>
@@ -50,6 +98,11 @@ const Contact = () => {
                 className="w-full bg-blue-100 py-2 px-5  mt-1 rounded-md text-xl "
                 type="number"
                 placeholder="Your Phone Number ..."
+                onChange={(e) => {
+                  setNumber(e.target.value);
+                }}
+                required
+                value={number}
               />
             </div>
             <div>
@@ -60,13 +113,30 @@ const Contact = () => {
                 className="w-full h-32 bg-blue-100 py-2 px-5 mt-1 rounded-md text-xl resize-none "
                 type="text"
                 placeholder="Some Message Here ..."
+                onChange={(e) => {
+                  setSubject(e.target.value);
+                }}
+                required
+                value={subject}
               />
             </div>
           </form>
 
-          <button className=" bg-yellow-300 px-4 py-2 w-fit rounded-md">
-            Send Message
-          </button>
+          {!loader ? (
+            <button
+              className=" bg-yellow-300 px-4 py-2 w-fit rounded-md"
+              onClick={sendMessageHandeler}
+            >
+              Send Message
+            </button>
+          ) : (
+            <button
+              className=" bg-yellow-300 px-14 py-2 w-fit rounded-md"
+              onClick={sendMessageHandeler}
+            >
+              <RiLoader3Line className=" animate-spin text-2xl" />
+            </button>
+          )}
         </div>
       </div>
     </Card>

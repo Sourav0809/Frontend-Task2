@@ -7,6 +7,7 @@ import Clients from "./components/Clients/Client";
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeroContainer />
       <About />
       <Services />
+      <Toaster />
       <Clients />
       <ProjectsContainer />
       <Contact />
