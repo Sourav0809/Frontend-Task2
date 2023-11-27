@@ -11,6 +11,8 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [loader, setLoader] = useState(false);
 
+  // When user send a message by submiting the contact form
+
   const sendMessageHandeler = async (e) => {
     setLoader(true);
     e.preventDefault();
@@ -59,7 +61,7 @@ const Contact = () => {
         {/* TEXT DIV HERE  */}
 
         <div className=" w-full min-[650px]:w-[55%] rounded-lg flex flex-col gap-2 md:gap-6 p-2 min-[650px]:px-10">
-          <form className=" flex flex-col gap-2">
+          <form className=" flex flex-col gap-2" onSubmit={sendMessageHandeler}>
             <div>
               <label htmlFor="name" className=" text-xl px-1 font-medium">
                 Name
@@ -120,23 +122,16 @@ const Contact = () => {
                 value={subject}
               />
             </div>
+            {!loader ? (
+              <button className=" bg-yellow-300 px-4 py-2 w-fit rounded-md">
+                Send Message
+              </button>
+            ) : (
+              <button className=" bg-yellow-300 px-14 py-2 w-fit rounded-md">
+                <RiLoader3Line className=" animate-spin text-2xl" />
+              </button>
+            )}
           </form>
-
-          {!loader ? (
-            <button
-              className=" bg-yellow-300 px-4 py-2 w-fit rounded-md"
-              onClick={sendMessageHandeler}
-            >
-              Send Message
-            </button>
-          ) : (
-            <button
-              className=" bg-yellow-300 px-14 py-2 w-fit rounded-md"
-              onClick={sendMessageHandeler}
-            >
-              <RiLoader3Line className=" animate-spin text-2xl" />
-            </button>
-          )}
         </div>
       </div>
     </Card>
